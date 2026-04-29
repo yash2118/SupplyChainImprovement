@@ -71,17 +71,14 @@ I designed a two-module system:
 ### Integration Idea
 - Forecast what should be in stock
 - Detect what is actually on shelf
-### Enables proactive inventory decisions
+- Enables proactive inventory decisions
 ## 4.  Features (X) and Target (Y)
 ### Demand Forecasting
-- X (Input Features): Product category, Shipping location (state), Time features (month, seasonality)
-Why: Demand depends heavily on location, product type, and seasonality
-- Y (Target): Qty → number of units sold
-Why: Direct representation of customer demand
+- X (Input Features): Product category, Shipping location (state), Time features (month, seasonality) (Why: Demand depends heavily on location, product type, and seasonality)
+- Y (Target): Qty → number of units sold (Why: Direct representation of customer demand)
 ### Shelf Detection
 - X: Shelf images
-- Y: Bounding boxes + object labels (products)
-Why: Needed for detecting product presence and stock availability
+- Y: Bounding boxes + object labels (products) (Why: Needed for detecting product presence and stock availability)
 ## 5. EDA, Modeling, Accuracy & Visualization
 ### EDA
 - Analyzed demand trends over time
@@ -111,12 +108,9 @@ Why: Needed for detecting product presence and stock availability
    - Increased sales (fewer stockouts)
    - Automated shelf monitoring
 - Use Cases
- - Retail Managers:
-  - Predict future demand and plan inventory
- - Store Operations Teams:
-  - Monitor shelves without manual checks
- - Supply Chain Teams:
-  - Optimize procurement and logistics
+ - Retail Managers: Predict future demand and plan inventory
+ - Store Operations Teams: Monitor shelves without manual checks
+ - Supply Chain Teams: Optimize procurement and logistics
 ## 7.How Normal Users Can Use It
 - Even non-technical users can:
   - Upload sales data → get demand forecasts
